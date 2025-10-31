@@ -20,6 +20,10 @@ echo "--- Build Module : zoo.staff ---"
 echo
 source ./bash/build-zoo.staff.sh
 echo
+echo "--- Build Module : zoo.tours.api ---"
+echo 
+source ./bash/build-zoo.tours.api.sh
+echo
 echo "--- All Modules have been Rebuilt ---"
 echo
 tree

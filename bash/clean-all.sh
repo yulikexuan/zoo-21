@@ -28,6 +28,11 @@ rm -rf ./mods/zoo.staff.jar
 echo
 echo "Module zoo.staff was Cleaned Up ---"
 echo
+echo "--- Clean Up Module: zoo.tours.api ---"
+echo
+rm -rf ./classes/zoo.tours.api 
+rm -rf ./mods/zoo.tours.api.jar
+echo
 tree
 echo
 
