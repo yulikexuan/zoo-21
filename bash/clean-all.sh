@@ -22,6 +22,12 @@ rm -rf ./mods/zoo.animal.talks.jar
 echo 
 echo "--- Module zoo.animal.talks was Cleaned Up ---"
 echo
+echo "--- Clean Up Module: zoo.staff ---"
+rm -rf ./classes/staff
+rm -rf ./mods/zoo.staff.jar
+echo
+echo "Module zoo.staff was Cleaned Up ---"
+echo
 tree
 echo
 
