@@ -7,9 +7,11 @@ import zoo.animal.talks.content.*;
 public class Announcement {
 
     public static void main(String... args) {
-        System.out.println(">>> We will be having talks ... ");
-        System.out.println(new SeaLionScript().script());
-        System.out.println(new ElephantScript().script());
+        System.out.println(today());
+    }
+
+    public static String today() {
+        return ">>> We will be having talks about %s and %s".formatted(new SeaLionScript().script(), new ElephantScript().script());
     }
 }
 
