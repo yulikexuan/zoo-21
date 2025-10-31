@@ -13,6 +13,9 @@ echo "--- Build Module : zoo.animal.care ---"
 echo 
 source ./bash/build-zoo.animal.care.sh 
 echo
+echo "--- Build Module : zoo.animal.talks ---"
+source ./bash/build-zoo.animal.talks.sh
+echo
 echo "--- All Modules have been Rebuilt ---"
 echo
 tree
