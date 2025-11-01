@@ -24,6 +24,14 @@ echo "--- Build Module : zoo.tours.api ---"
 echo 
 source ./bash/build-zoo.tours.api.sh
 echo
+echo "--- Build Module : zoo.tours.reservations ---"
+echo
+source ./bash/build-zoo.tours.reservations.sh
+echo
+echo "--- Build Module : zoo.visitor ---"
+echo
+source ./bash/build-zoo.visitor.sh
+echo
 echo "--- All Modules have been Rebuilt ---"
 echo
 tree

@@ -33,6 +33,16 @@ echo
 rm -rf ./classes/zoo.tours.api 
 rm -rf ./mods/zoo.tours.api.jar
 echo
+echo "--- Clean Up Module: zoo.tours.reservations ---"
+echo
+rm -rf ./classes/zoo.tours.reservations
+rm -rf ./mods/zoo.tours.reservations.jar
+echo
+echo "--- Clean Up Module: zoo.visitor ---"
+echo
+rm -rf ./classes/zoo.visitor
+rm -rf ./mods/zoo.visitor.jar
+echo
 tree
 echo
 
